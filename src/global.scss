@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Golos Text", sans-serif;
+  letter-spacing: -0.41px;
+  // background-color: var(--tg-theme-bg-color);
+  background-color: #fff;
+  --primary-color: #14151A
+  ;
+  // --tg-theme-bg-color: #18222d;
+  // --tg-theme-secondary-bg-color: #131415;
+  // --tg-theme-text-color: #fff;
+  // --tg-theme-hint-color: #b1c3d5;
+  // --tg-theme-link-color: #62bcf9;
+  // --tg-theme-button-color: #2ea6ff;
+  // --tg-theme-button-text-color: #fff;
+
+  // white schema colors
+  --tg-theme-bg-color: #fafafa;
+  --tg-theme-secondary-bg-color: #efeff3;
+  --tg-theme-text-color: #000;
+  --tg-theme-hint-color: #999;
+  --tg-theme-link-color: #2481cc;
+  --tg-theme-button-color: #2481cc;
+  --tg-theme-button-text-color: #fff;
+}
+
+// body.order-mode {
+//   background-color: var(--bg-color);
+// }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+
+
+
+//Slider
+
+.slider__container {
+  .slick-list {
+    .slick-track {
+      display: flex;
+      gap: 0.5rem;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.navbar {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.2rem 1rem;
+
+    .back__btn {
+        position: absolute;
+        left: 1rem;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+        font-weight: 600;
+        cursor: pointer;
+        .first__logo__letter {
+            font-size: 2rem;
+            color: black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .rest__logo__letter {
+            font-size: 1.7rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(94, 94, 94);
+        }
+    }
+}
